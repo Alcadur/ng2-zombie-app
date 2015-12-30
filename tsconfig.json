@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "files": [
+    "dev/scripts/zombie-app/ZombieApp.ts",
+    "dev/scripts/cemeteries/Cemeteries.ts",
+    "dev/scripts/bootstrap.ts",
+    "dev/scripts/vendor.ts"
+  ],
+  "compileOnSave": false
+}

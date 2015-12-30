@@ -1,0 +1,20 @@
+[
+  {
+    "id":0,
+    "name": "Green-Wood Cemetery",
+    "address": "500 25th St, Brooklyn, NY 11232, Stany Zjednoczone",
+    "founded": 1838
+  },
+  {
+    "id":1,
+    "name": "Evergreen Memorial Park & Crematory",
+    "address": "204 North Evergreen Avenue , Los Angeles, California, 90033, Stany Zjednoczone",
+    "founded": 1877
+  },
+  {
+    "id":2,
+    "name": "Highgate Cemetery",
+    "address": "Swain's Ln, London N6 6PJ, Wielka Brytania",
+    "founded":1836
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "name": "ng2_zombie_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alcadur/ng2-zombie-app.git"
+  },
+  "author": "Alcadur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alcadur/ng2-zombie-app/issues"
+  },
+  "homepage": "https://github.com/Alcadur/ng2-zombie-app#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.34.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.11",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sourcemap-loader": "^0.3.6",
+    "karma-webpack": "1.7.0",
+    "node-sass": "^3.4.2",
+    "phantomjs": "^1.9.18",
+    "phantomjs-polyfill": "0.0.1",
+    "raw-loader": "0.5.1",
+    "rimraf": "^2.4.4",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.7.2",
+    "tsconfig-lint": "^0.2.0",
+    "tslint": "^3.2.0",
+    "tslint-loader": "^2.1.0",
+    "typedoc": "^0.3.12",
+    "typescript": "^1.7.3",
+    "typings": "^0.3.1",
+    "webpack": "^1.12.9"
+  }
+}
