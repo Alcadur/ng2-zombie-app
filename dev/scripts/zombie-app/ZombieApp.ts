@@ -12,6 +12,6 @@ import {Cemeteries} from '../cemeteries/Cemeteries';
 ])
 export class ZombieApp {
     constructor(private router: Router) {
-        router.navigate(['MyView']);
+        router.navigate(['Cemeteries']);
     }
 }

@@ -1,3 +1,14 @@
-<div *ngFor="#cemetery of cemeteries">
-    {{cemetery.id}}
-</div>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Zombie number</th>
+        </tr>
+    </thead>
+    <tr *ngFor="#cemetery of cemeteries">
+        <td>{{cemetery.id}}</td>
+        <td>{{cemetery.name}}</td>
+        <td>{{cemetery.zombies}}</td>
+    </tr>
+</table>

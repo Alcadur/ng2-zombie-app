@@ -3,7 +3,7 @@
     "index": 0,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 57,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Gracie",
       "last": "Doyle"
@@ -15,7 +15,7 @@
     "index": 1,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 87,
-    "cementary": 2,
+    "cemetery": 2,
     "name": {
       "first": "Lacy",
       "last": "Potts"
@@ -27,7 +27,7 @@
     "index": 2,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 58,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Ava",
       "last": "Battle"
@@ -39,7 +39,7 @@
     "index": 3,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 66,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Gilda",
       "last": "Mccormick"
@@ -51,7 +51,7 @@
     "index": 4,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 45,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Hazel",
       "last": "Stewart"
@@ -63,7 +63,7 @@
     "index": 5,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 45,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Stephanie",
       "last": "Allen"
@@ -75,7 +75,7 @@
     "index": 6,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 84,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Jarvis",
       "last": "Nguyen"
@@ -87,7 +87,7 @@
     "index": 7,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 40,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Serrano",
       "last": "Oneil"
@@ -99,7 +99,7 @@
     "index": 8,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 42,
-    "cementary": 2,
+    "cemetery": 2,
     "name": {
       "first": "Webb",
       "last": "Beck"
@@ -111,7 +111,7 @@
     "index": 9,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 36,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Gamble",
       "last": "Bullock"
@@ -123,7 +123,7 @@
     "index": 10,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 82,
-    "cementary": 2,
+    "cemetery": 2,
     "name": {
       "first": "Ernestine",
       "last": "Chavez"
@@ -135,7 +135,7 @@
     "index": 11,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 66,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Spence",
       "last": "Gilliam"
@@ -147,7 +147,7 @@
     "index": 12,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 90,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Huber",
       "last": "Gonzales"
@@ -159,7 +159,7 @@
     "index": 13,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 68,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Ester",
       "last": "Montoya"
@@ -171,7 +171,7 @@
     "index": 14,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 19,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Mejia",
       "last": "Benton"
@@ -183,7 +183,7 @@
     "index": 15,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 70,
-    "cementary": 2,
+    "cemetery": 2,
     "name": {
       "first": "Velez",
       "last": "Fuentes"
@@ -195,7 +195,7 @@
     "index": 16,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 62,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Cheri",
       "last": "Clarke"
@@ -207,7 +207,7 @@
     "index": 17,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 63,
-    "cementary": 1,
+    "cemetery": 1,
     "name": {
       "first": "Pickett",
       "last": "Schultz"
@@ -219,7 +219,7 @@
     "index": 18,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 50,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Jocelyn",
       "last": "Colon"
@@ -231,7 +231,7 @@
     "index": 19,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 59,
-    "cementary": 0,
+    "cemetery": 0,
     "name": {
       "first": "Nolan",
       "last": "Gentry"

@@ -24,6 +24,10 @@ module.exports = {
                 exclude: [ /Spec\.ts$/, /node_modules/ ]
             },
             {
+                test   : /\.(ttf|TFF|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+                loader : 'file'
+            },
+            {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract("style-loader","css-loader!sass-loader")
             }
