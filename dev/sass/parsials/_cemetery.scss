@@ -1,0 +1,48 @@
+table {
+  text-align: center;
+}
+
+th,
+td{
+  padding: 0.4em;
+}
+
+thead tr {
+  background-color: #C3C3C3;
+  height: 2em;
+}
+
+.head-id {
+  border-top-left-radius: 5px;
+}
+
+.head-links {
+  border-top-right-radius: 5px;
+}
+
+tbody tr {
+  background-color: #EEE;
+  padding: .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+
+tbody tr:hover {
+  color: #607D8B;
+  background-color: #EEE;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: small;
+  color: white;
+  padding: 0.4em 0.7em 0.4em 0.7em;
+  background-color: #607D8B;
+  border-radius: 4px 4px 4px 4px;
+  text-decoration: none;
+  line-height: 2em;
+}
+
+.btn:hover {
+  color: #CDDAFF;
+}
