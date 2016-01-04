@@ -12,6 +12,8 @@
     "dev/scripts/zombie-app/ZombieApp.ts",
     "dev/scripts/cemeteries/Cemeteries.ts",
     "dev/scripts/cemeteries/Cemetery.ts",
+    "dev/scripts/zombies/Zombies.ts",
+    "dev/scripts/zombies/Zombie.ts",
     "dev/scripts/bootstrap.ts",
     "dev/scripts/vendor.ts"
   ],

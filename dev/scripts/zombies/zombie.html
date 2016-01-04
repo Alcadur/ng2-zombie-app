@@ -1,0 +1,9 @@
+<a [routerLink]="['Cemetery', {id: zombie.cemeteryId}]" class="btn">Back to zombie cemetery</a>
+<a [routerLink]="['Zombies']" class="btn">Back to zombies list</a>
+
+<div>{{zombie.id}}</div>
+<div><img [src]="zombie.picture"></div>
+<div>{{zombie.age}}</div>
+<div>{{zombie.name.first}} {{zombie.name.last}}</div>
+<div>{{zombie.about}}</div>
+<div>{{zombie.died}}</div>
