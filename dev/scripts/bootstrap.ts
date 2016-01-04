@@ -5,6 +5,7 @@ import {bootstrap} from 'angular2/platform/browser';
 //import {ELEMENT_PROBE_PROVIDERS} from '../../node_modules/angular2/platform/common_dom.d';
 import {ROUTER_PROVIDERS} from 'angular2/router';
 import {HTTP_PROVIDERS} from 'angular2/http';
+import {CacheService} from './services/CacheService';
 
 /*
  * App Component
@@ -17,7 +18,7 @@ import {ZombieApp} from './zombie-app/ZombieApp';
  * our Services and Providers into Angular's dependency injection
  */
 export function main() {
-  return bootstrap(ZombieApp, [HTTP_PROVIDERS, ROUTER_PROVIDERS])
+  return bootstrap(ZombieApp, [HTTP_PROVIDERS, ROUTER_PROVIDERS, CacheService])
   .catch(err => console.error(err));
 }
 

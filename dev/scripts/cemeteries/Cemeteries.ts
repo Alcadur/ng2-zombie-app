@@ -1,32 +1,20 @@
-import {Component} from 'angular2/core';
+import {Component, } from 'angular2/core';
 import {NgFor} from 'angular2/common';
 import {Http} from 'angular2/http';
+import {RouterLink} from 'angular2/router';
+import {CacheService} from '../services/CacheService';
 
 @Component({
-    selector: 'cemeteries',
+    selector: 'cemeteries.cemeteries',
     templateUrl: 'dev/scripts/cemeteries/cemeteries.html',
-    directives: [NgFor]
+    directives: [NgFor, RouterLink]
 })
 export class Cemeteries {
-    public cemeteries: Array<any> = [];
+    public cemeteries: Array<Object> = [];
 
-    constructor(http: Http) {
-        http.get('data/zombies.json').map(res => res.json()).subscribe(zombies => {
-            let cemeteries = [];
-            http.get('data/cementarys.json').map(res => res.json()).subscribe(response => {
-                cemeteries = response;
-                let zombiesInCemeteries = {};
-                for(let zombie of zombies){
-                    zombiesInCemeteries[zombie.cemetery] = zombiesInCemeteries[zombie.cemetery] || 0;
-                    zombiesInCemeteries[zombie.cemetery]++;
-                }
-
-                for(let cemetery of cemeteries){
-                    cemetery.zombies = zombiesInCemeteries[cemetery.id];
-                    this.cemeteries.push(cemetery);
-                }
-            });
+    constructor(cache: CacheService) {
+        cache.getCemeteries().then(cemeteries => {
+            this.cemeteries = cemeteries;
         });
-
     }
 }

@@ -1,9 +1,9 @@
 [
   {
-    "index": 0,
+    "id": 0,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 57,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Gracie",
       "last": "Doyle"
@@ -12,10 +12,10 @@
     "died": "2015-12-31 09:17"
   },
   {
-    "index": 1,
+    "id": 1,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 87,
-    "cemetery": 2,
+    "cemeteryId": 2,
     "name": {
       "first": "Lacy",
       "last": "Potts"
@@ -24,10 +24,10 @@
     "died": "2015-12-30 06:56"
   },
   {
-    "index": 2,
+    "id": 2,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 58,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Ava",
       "last": "Battle"
@@ -36,10 +36,10 @@
     "died": "2015-12-30 02:25"
   },
   {
-    "index": 3,
+    "id": 3,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 66,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Gilda",
       "last": "Mccormick"
@@ -48,10 +48,10 @@
     "died": "2015-12-31 05:17"
   },
   {
-    "index": 4,
+    "id": 4,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 45,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Hazel",
       "last": "Stewart"
@@ -60,10 +60,10 @@
     "died": "2015-12-31 02:13"
   },
   {
-    "index": 5,
+    "id": 5,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 45,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Stephanie",
       "last": "Allen"
@@ -72,10 +72,10 @@
     "died": "2015-12-31 09:55"
   },
   {
-    "index": 6,
+    "id": 6,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 84,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Jarvis",
       "last": "Nguyen"
@@ -84,10 +84,10 @@
     "died": "2015-12-29 05:02"
   },
   {
-    "index": 7,
+    "id": 7,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 40,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Serrano",
       "last": "Oneil"
@@ -96,10 +96,10 @@
     "died": "2015-12-30 03:19"
   },
   {
-    "index": 8,
+    "id": 8,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 42,
-    "cemetery": 2,
+    "cemeteryId": 2,
     "name": {
       "first": "Webb",
       "last": "Beck"
@@ -108,10 +108,10 @@
     "died": "2015-12-30 04:21"
   },
   {
-    "index": 9,
+    "id": 9,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 36,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Gamble",
       "last": "Bullock"
@@ -120,10 +120,10 @@
     "died": "2015-12-31 10:27"
   },
   {
-    "index": 10,
+    "id": 10,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 82,
-    "cemetery": 2,
+    "cemeteryId": 2,
     "name": {
       "first": "Ernestine",
       "last": "Chavez"
@@ -132,10 +132,10 @@
     "died": "2015-12-30 09:36"
   },
   {
-    "index": 11,
+    "id": 11,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 66,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Spence",
       "last": "Gilliam"
@@ -144,10 +144,10 @@
     "died": "2015-12-31 11:05"
   },
   {
-    "index": 12,
+    "id": 12,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 90,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Huber",
       "last": "Gonzales"
@@ -156,10 +156,10 @@
     "died": "2015-12-31 10:44"
   },
   {
-    "index": 13,
+    "id": 13,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 68,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Ester",
       "last": "Montoya"
@@ -168,10 +168,10 @@
     "died": "2015-12-31 08:57"
   },
   {
-    "index": 14,
+    "id": 14,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 19,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Mejia",
       "last": "Benton"
@@ -180,10 +180,10 @@
     "died": "2015-12-31 05:22"
   },
   {
-    "index": 15,
+    "id": 15,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 70,
-    "cemetery": 2,
+    "cemeteryId": 2,
     "name": {
       "first": "Velez",
       "last": "Fuentes"
@@ -192,10 +192,10 @@
     "died": "2015-12-30 09:24"
   },
   {
-    "index": 16,
+    "id": 16,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 62,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Cheri",
       "last": "Clarke"
@@ -204,10 +204,10 @@
     "died": "2015-12-30 01:33"
   },
   {
-    "index": 17,
+    "id": 17,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 63,
-    "cemetery": 1,
+    "cemeteryId": 1,
     "name": {
       "first": "Pickett",
       "last": "Schultz"
@@ -216,10 +216,10 @@
     "died": "2015-12-30 10:34"
   },
   {
-    "index": 18,
+    "id": 18,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 50,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Jocelyn",
       "last": "Colon"
@@ -228,10 +228,10 @@
     "died": "2015-12-30 07:32"
   },
   {
-    "index": 19,
+    "id": 19,
     "picture": "http://lorempixel.com/100/150/people",
     "age": 59,
-    "cemetery": 0,
+    "cemeteryId": 0,
     "name": {
       "first": "Nolan",
       "last": "Gentry"

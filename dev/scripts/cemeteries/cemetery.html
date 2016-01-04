@@ -1,0 +1,15 @@
+<a [routerLink]="['Cemeteries']">back</a>
+
+{{info.id}}
+{{info.name}}
+{{info.address}}
+{{info.founded}}
+
+<div *ngFor="#zombie of zombies">
+    {{zombie.id}}
+    <img [src]="zombie.picture">
+    {{zombie.age}}
+    {{zombie.name.first}} {{zombie.name.last}}
+    {{zombie.about}}
+    {{zombie.died}}
+</div>
