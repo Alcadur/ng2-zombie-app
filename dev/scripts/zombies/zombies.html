@@ -1,4 +1,4 @@
-<table>
+<table class="table-with-hover">
     <thead>
         <tr>
             <th>Name</th>
@@ -11,8 +11,8 @@
         <tr *ngFor="#zombie of zombies">
             <td>{{zombie.name.first}} {{zombie.name.last}}</td>
             <td>{{zombie.died}}</td>
-            <td><a [routerLink]="['Cemetery', {id: zombie.cemeteryId}]" class="btn">{{getCemeteryName(zombie.cemeteryId)}}</a></td>
-            <td><a [routerLink]="['Zombie', {id: zombie.id}]" class="btn">meet me ~('.'~)</a></td>
+            <td><a [routerLink]="['Cemetery', {id: zombie.cemeteryId}]" class="btn blue-btn small-btn">{{getCemeteryName(zombie.cemeteryId)}}</a></td>
+            <td><a [routerLink]="['Zombie', {id: zombie.id}]" class="btn blue-btn small-btn">meet me ~('.'~)</a></td>
         </tr>
     </tbody>
 </table>

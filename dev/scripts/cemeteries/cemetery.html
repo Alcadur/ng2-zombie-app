@@ -1,15 +1,50 @@
-<a [routerLink]="['Cemeteries']">back</a>
+<a [routerLink]="['Cemeteries']" class="btn blue-btn small-btn">back</a>
 
-{{info.id}}
-{{info.name}}
-{{info.address}}
-{{info.founded}}
-
-<div *ngFor="#zombie of zombies">
-    {{zombie.id}}
-    <img [src]="zombie.picture">
-    {{zombie.age}}
-    {{zombie.name.first}} {{zombie.name.last}}
-    {{zombie.about}}
-    {{zombie.died}}
+<div class="cemetery-info">
+    <p>
+        <strong>id:</strong>
+        {{info.id}}
+    </p>
+    <p>
+        <strong>name:</strong>
+        {{info.name}}
+    </p>
+    <p>
+        <strong>address:</strong>
+        {{info.address}}
+    </p>
+    <p>
+        <strong>founded:</strong>
+        {{info.founded}}
+    </p>
 </div>
+
+<table class="zombies-in-cemetery table-with-hover">
+    <thead>
+        <tr>
+            <th>
+                name
+            </th>
+            <th>
+                age
+            </th>
+            <th>
+                died
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="#zombie of zombies">
+            <td>
+                {{zombie.name.first}} {{zombie.name.last}}
+            </td>
+            <td>
+                {{zombie.age}}
+            </td>
+            <td>
+                {{zombie.died}}
+            </td>
+        </tr>
+    </tbody>
+</table>

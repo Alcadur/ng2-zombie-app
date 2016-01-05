@@ -1,10 +1,10 @@
-<table>
+<table class="table-with-hover">
     <thead>
     <tr>
-        <th class="head-id">Id</th>
+        <th>Id</th>
         <th>Name</th>
         <th>Zombie number</th>
-        <th class="head-links"></th>
+        <th></th>
     </tr>
     </thead>
     <tr *ngFor="#cemetery of cemeteries">
@@ -12,7 +12,7 @@
         <td>{{cemetery.name}}</td>
         <td>{{cemetery.zombieNumber}}</td>
         <td>
-            <a [routerLink]="['Cemetery', {id: cemetery.id}]" class="btn">Details</a>
+            <a [routerLink]="['Cemetery', {id: cemetery.id}]" class="btn blue-btn small-btn">Details</a>
         </td>
     </tr>
 </table>

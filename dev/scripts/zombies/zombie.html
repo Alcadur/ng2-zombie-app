@@ -1,11 +1,49 @@
-<a [routerLink]="['Cemetery', {id: zombie.cemeteryId}]" class="btn">Back to zombie cemetery</a>
-<a [routerLink]="['Zombies']" class="btn">Back to zombies list</a>
-
+<a [routerLink]="['Cemetery', {id: zombie.cemeteryId}]" class="btn blue-btn small-btn">Back to zombie cemetery</a>
+<a [routerLink]="['Zombies']" class="btn blue-btn small-btn">Back to zombies list</a>
 <a [routerLink]="['EditZombie', {id: zombie.id}]" class="btn">Edit</a>
 
-<div>{{zombie.id}}</div>
-<div><img [src]="zombie.picture"></div>
-<div>{{zombie.age}}</div>
-<div>{{zombie.name.first}} {{zombie.name.last}}</div>
-<div>{{zombie.about}}</div>
-<div>{{zombie.died}}</div>
+<h1>{{zombie.name.first}} {{zombie.name.last}}</h1>
+<div class="zombie-info" style="width: 50%; margin: 0 auto;">
+    <div class="picture" style="float: left;">
+        <img [src]="zombie.picture">
+    </div>
+
+    <div class="zombie-info-details">
+        <table>
+
+            <tr>
+                <td class="property-name">
+                    id
+                </td>
+                <td>
+                    {{zombie.id}}
+                </td>
+            </tr>
+            <tr>
+                <td class="property-name">
+                    age
+                </td>
+                <td>
+                    {{zombie.age}}
+                </td>
+            </tr>
+            <tr>
+                <td class="property-name">
+                    died
+                </td>
+                <td>
+                    {{zombie.died}}
+                </td>
+            </tr>
+            <tr>
+                <td class="property-name">
+                    about
+                </td>
+                <td>
+                    {{zombie.about}}
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+

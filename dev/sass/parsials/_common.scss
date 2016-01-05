@@ -1,5 +1,14 @@
 .zombie-app {
     display: block;
     width: $contentWidth;
-    margin: 0 auto;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.global-link {
+    margin-bottom: 10px;
+}
+
+.property-name {
+  font-weight: 700;
 }
