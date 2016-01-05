@@ -1,19 +1,23 @@
-import {Component} from 'angular2/core';
-import {CacheService} from '../services/CacheService';
-import {RouteParams, RouterLink} from 'angular2/router';
-import {NgFor} from 'angular2/common';
-
-@Component({
-    selector: 'cemetery.cemetery',
-    templateUrl: 'dev/scripts/cemeteries/cemetery.html',
-    directives: [RouterLink, NgFor]
-})
 export class Cemetery {
-    public info;
-    public zombies: Array<any>;
+    id: string;
+    name: string;
+    address: string;
+    founded: number;
+    zombieNumber: number;
 
-    constructor(cache: CacheService, params: RouteParams) {
-        this.info = cache.getCemeteryById(params.get('id'));
-        this.zombies = cache.getZombiesByCemeteryId(params.get('id'));
+    constructor(obj){
+        this.id = obj.id;
+        this.name = obj.name;
+        this.address = obj.address;
+        this.founded = obj.founded;
+        this.zombieNumber = 0;
+    }
+
+    static convertArray(objects: Array<any>):Array<Cemetery> {
+        let cemeteryArray = [];
+        for(let obj of objects){
+            cemeteryArray.push(new Cemetery(obj));
+        }
+        return cemeteryArray;
     }
 }

@@ -10,7 +10,7 @@
     <tr *ngFor="#cemetery of cemeteries">
         <td>{{cemetery.id}}</td>
         <td>{{cemetery.name}}</td>
-        <td>{{cemetery.zombies}}</td>
+        <td>{{cemetery.zombieNumber}}</td>
         <td>
             <a [routerLink]="['Cemetery', {id: cemetery.id}]" class="btn">Details</a>
         </td>

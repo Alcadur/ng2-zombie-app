@@ -1,6 +1,8 @@
 <a [routerLink]="['Cemetery', {id: zombie.cemeteryId}]" class="btn">Back to zombie cemetery</a>
 <a [routerLink]="['Zombies']" class="btn">Back to zombies list</a>
 
+<a [routerLink]="['EditZombie', {id: zombie.id}]" class="btn">Edit</a>
+
 <div>{{zombie.id}}</div>
 <div><img [src]="zombie.picture"></div>
 <div>{{zombie.age}}</div>

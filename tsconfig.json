@@ -10,10 +10,13 @@
   "files": [
     "dev/scripts/services/CacheService.ts",
     "dev/scripts/zombie-app/ZombieApp.ts",
-    "dev/scripts/cemeteries/Cemeteries.ts",
     "dev/scripts/cemeteries/Cemetery.ts",
+    "dev/scripts/cemeteries/Cemeteries.ts",
+    "dev/scripts/cemeteries/CemeteryComponent.ts",
+    "dev/scripts/zombies/DeadMan.ts",
     "dev/scripts/zombies/Zombies.ts",
     "dev/scripts/zombies/Zombie.ts",
+    "dev/scripts/zombies/EditZombie.ts",
     "dev/scripts/bootstrap.ts",
     "dev/scripts/vendor.ts"
   ],
