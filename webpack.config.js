@@ -8,7 +8,6 @@ module.exports = {
         styles: "./dev/sass/all.scss"
     },
     module: {
-        preLoaders: [ { test: /\.ts$/, loader: 'tslint-loader' } ],
         loaders: [
             {
                 test: /\.ts$/,
