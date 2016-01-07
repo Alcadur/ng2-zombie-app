@@ -1,46 +1,54 @@
 .btn {
-  color: #fff;
-  background-color: #000;
-  cursor: pointer;
-  padding: 0.4em 0.7em 0.4em 0.7em;
-  border-radius: 4px 4px 4px 4px;
-  text-decoration: none;
-  line-height: 2em;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    padding: 0.4em 0.7em 0.4em 0.7em !important;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    line-height: 2em;
+    border: none;
 }
 
 .small-btn {
-    font-size: small;
+    font-size: 12px;
 }
 
 .blue-btn{
-  background-color: #607D8B;
+    background-color: #607D8B;
 }
 
 .blue-btn:hover {
-  background-color: #435c69;
+    background-color: #435c69;
 }
 
 .green-btn{
-  background-color: #0b7f11;
+    background-color: #0b7f11;
 }
 
 .green-btn:hover {
-  background-color: #0b5f11;
+    background-color: #0b5f11;
 }
 
 .red-btn{
-  background-color: #c02e20;
+    background-color: #c02e20;
 }
 
 .red-btn:hover {
-  background-color: #97221a;
+    background-color: #97221a;
 }
 
 .orange-btn{
-  background-color: #eca224;
+    background-color: #eca224;
 }
 
 .orange-btn:hover {
-  background-color: #d89521;
+    background-color: #d89521;
 }
 
+.sub-menu-btn {
+     background-color: #779bac;
+}
+
+.sub-menu-btn:hover {
+  background-color: #628494;
+}

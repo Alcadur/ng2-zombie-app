@@ -1,12 +1,25 @@
-<form [ngFormModel]="form" (ngSubmit)="submit()">
-    <input ngControl="firstName" [ngClass]="{error: hasError('firstName')}">
-    <p class="error">Field is required</p>
-    <input ngControl="lastName">
-    <p class="error">Field is required</p>
-    <select ngControl="cemeteryId">
-        <option *ngFor="#cemetery of cemeteries" [value]="cemetery.id">{{cemetery.name}}</option>
-    </select>
-    <textarea ngControl="about"></textarea>
-    <button class="btn" [routerLink]="['Zombie', {id: zombieId}]">Cancel</button>
-    <input type="submit" class="btn" value="Save">
+<form [ngFormModel]="form" (ngSubmit)="submit()" class="edit-zombie">
+
+    <div class="form-inputs">
+        <label>first name: </label>
+        <input ngControl="firstName" [ngClass]="{error: hasError('firstName')}">
+        <p class="error">Field is required</p>
+
+        <label>last name: </label>
+        <input ngControl="lastName">
+        <p class="error">Field is required</p>
+
+        <label>cemetery: </label>
+        <select ngControl="cemeteryId">
+            <option *ngFor="#cemetery of cemeteries" [value]="cemetery.id">{{cemetery.name}}</option>
+        </select>
+
+        <label>about: </label>
+        <textarea ngControl="about"></textarea>
+    </div>
+
+    <button class="btn red-btn small-btn" [routerLink]="['Zombie', {id: zombieId}]">Cancel</button>
+    <input type="submit" class="btn green-btn small-btn" value="Save">
+
+
 </form>

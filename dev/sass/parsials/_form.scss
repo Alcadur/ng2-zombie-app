@@ -1,0 +1,37 @@
+.edit-zombie {
+    label {
+        display: block;
+        width: 100%;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .error {
+        color: #c02e20;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    .form-inputs {
+      input,
+      select,
+      textarea {
+          border-radius: 5px;
+          padding: 6px 10px;
+          border-color: #607D8B;
+          border-width: 1px;
+          width: 300px;
+          box-sizing: border-box;
+      }
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+}
+
+
