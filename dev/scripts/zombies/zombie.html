@@ -2,7 +2,7 @@
 <a [routerLink]="['Zombies']" class="btn sub-menu-btn small-btn">Back to zombies list</a>
 <a [routerLink]="['EditZombie', {id: zombie.id}]" class="btn sub-menu-btn small-btn">Edit</a>
 
-<h1>{{zombie.name.first}} {{zombie.name.last}}</h1>
+<h1 class="zombie-name">{{zombie.name.first}} {{zombie.name.last}}</h1>
 <div class="zombie-info" style="width: 50%; margin: 0 auto;">
     <div class="picture" style="float: left;">
         <img [src]="zombie.picture">

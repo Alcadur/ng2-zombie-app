@@ -20,7 +20,7 @@ export class EditZombie {
     public form: ControlGroup;
     public cemeteries: Array<Cemetery>;
     public zombieId: string;
-    private zombie: DeadMan;
+    public zombie: DeadMan;
     private router: Router;
 
     constructor(cache: CacheService, params: RouteParams, formBuilder: FormBuilder, private router: Router) {
@@ -28,6 +28,7 @@ export class EditZombie {
         this.zombie = cache.getZombieById(params.get('id'));
         this.zombieId = this.zombie.id;
         this.form = formBuilder.group({
+            picture: [this.zombie.picture],
             firstName: [this.zombie.name.first, Validators.required],
             lastName: [this.zombie.name.last, Validators.required],
             cemeteryId: [this.zombie.cemeteryId],

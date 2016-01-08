@@ -1,25 +1,54 @@
 <form [ngFormModel]="form" (ngSubmit)="submit()" class="edit-zombie">
+    <h1 class="zombie-name">{{form.value.firstName}} {{form.value.lastName}}</h1>
+    <div class="editable">
+        <div class="edit-zombie-photo">
+            <img [src]="form.value.picture">
+            <input ngControl="picture">
+        </div>
+        <div class="form-inputs">
+            <div class="row">
+                <label>Id: </label>
+                <input [value]="zombie.id" disabled>
+            </div>
 
-    <div class="form-inputs">
-        <label>first name: </label>
-        <input ngControl="firstName" [ngClass]="{error: hasError('firstName')}">
-        <p class="error">Field is required</p>
+            <div class="row">
+                <label>First name: </label>
+                <input ngControl="firstName" [ngClass]="{hasError: hasError('firstName')}">
+                <p class="error">Field is required</p>
+            </div>
 
-        <label>last name: </label>
-        <input ngControl="lastName">
-        <p class="error">Field is required</p>
+            <div class="row">
+                <label>Last name: </label>
+                <input ngControl="lastName" [ngClass]="{hasError: hasError('lastName')}">
+                <p class="error">Field is required</p>
+            </div>
 
-        <label>cemetery: </label>
-        <select ngControl="cemeteryId">
-            <option *ngFor="#cemetery of cemeteries" [value]="cemetery.id">{{cemetery.name}}</option>
-        </select>
+            <div class="row">
+                <label>Age: </label>
+                <input [value]="zombie.age" disabled>
+            </div>
 
-        <label>about: </label>
-        <textarea ngControl="about"></textarea>
+            <div class="row">
+                <label>Died: </label>
+                <input [value]="zombie.died" disabled>
+            </div>
+
+            <div class="row">
+                <label>Cemetery: </label>
+                <select ngControl="cemeteryId">
+                    <option *ngFor="#cemetery of cemeteries" [value]="cemetery.id">{{cemetery.name}}</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label class="multi-line">About: </label>
+                <textarea ngControl="about"></textarea>
+            </div>
+        </div>
     </div>
 
-    <button class="btn red-btn small-btn" [routerLink]="['Zombie', {id: zombieId}]">Cancel</button>
-    <input type="submit" class="btn green-btn small-btn" value="Save">
-
-
+    <p>
+        <button class="btn red-btn small-btn" [routerLink]="['Zombie', {id: zombieId}]">Cancel</button>
+        <input type="submit" class="btn green-btn small-btn" value="Save">
+    </p>
 </form>

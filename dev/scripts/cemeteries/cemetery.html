@@ -36,7 +36,7 @@
 
     <tbody>
         <tr *ngFor="#zombie of zombies">
-            <td>
+            <td class="zombie-name">
                 {{zombie.name.first}} {{zombie.name.last}}
             </td>
             <td>
@@ -44,6 +44,9 @@
             </td>
             <td>
                 {{zombie.died}}
+            </td>
+            <td>
+                <a [routerLink]="['Zombie', {id: zombie.id}]" class="btn orange-btn">show</a>
             </td>
         </tr>
     </tbody>

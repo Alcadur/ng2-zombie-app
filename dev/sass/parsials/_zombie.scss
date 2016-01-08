@@ -16,4 +16,7 @@
 
 .picture {
     margin-right: 20px;
+    > img {
+        max-width: 100px;
+    }
 }

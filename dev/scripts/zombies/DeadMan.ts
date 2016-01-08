@@ -26,6 +26,7 @@ export class DeadMan {
     }
 
     update(obj){
+        this.picture = obj.picture;
         this.name.first = obj.firstName;
         this.name.last = obj.lastName;
         this.cemeteryId = obj.cemeteryId;
