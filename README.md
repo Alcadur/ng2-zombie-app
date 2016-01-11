@@ -16,10 +16,11 @@ Run `npm install` and when all dependencies will be downloaded just run `webpack
 
 If you want draft Your app remove:
 
+- data
 - dev/sass/config
 - dev/sass/parsials
 - dev/scripts/cemeteries
 - dev/scripts/services
 - dev/scripts/zombies
 
-Remove all from `dev/sass/all.scss`, rename `dev/scripts/zombie-app/ZombieApp.ts`, remove unnecessary imports and route configuration 
+Remove content from `dev/sass/all.scss`, rename `dev/scripts/zombie-app/ZombieApp.ts`, remove unnecessary imports and route configuration
