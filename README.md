@@ -14,7 +14,7 @@ Run `npm install` and when all dependencies will be downloaded just run `webpack
 
 --
 
-If you want shadule for Youre app remove:
+If you want draft Your app remove:
 
 - dev/sass/config
 - dev/sass/parsials
