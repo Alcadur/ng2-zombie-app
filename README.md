@@ -9,3 +9,17 @@ To create data I user <a href="http://www.json-generator.com/">JSON generator</a
 --
 
 To run application You need <a href="https://nodejs.org/">node</a> in version >= 4.x (with ES6 support)
+
+Run `npm install` and when all dependencies will be downloaded just run `webpack` and `node server.js`, it will run server on `localhost:3000`
+
+--
+
+If you want shadule for Youre app remove:
+
+- dev/sass/config
+- dev/sass/parsials
+- dev/scripts/cemeteries
+- dev/scripts/services
+- dev/scripts/zombies
+
+Remove all from `dev/sass/all.scss`, rename `dev/scripts/zombie-app/ZombieApp.ts`, remove unnecessary imports and route configuration 
